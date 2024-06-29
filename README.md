@@ -51,6 +51,7 @@
 ## 📍 Overview
 
 ***Motivation***
+
 I developed this project to revolutionize YouTube commenting by moving beyond generic responses. The goal is for the AI assistant to provide detailed and context-specific answers that enrich viewer interactions with video and blog content.
 
 ***Idea***
