@@ -50,7 +50,15 @@
 
 ## 📍 Overview
 
-The MBGPT project introduces an advanced AI assistant designed specifically for enhancing user engagement on YouTube through personalized interactions. This software utilizes OpenAIs platform to manage and respond to user comments effectively, ensuring each interaction is tailored to the users needs and the complexity of their inquiries. Key components of the project include fine-tuning the AI model to improve its accuracy and relevance in communication, as evidenced through dedicated notebooks for API interactions and model customization. The MBGPT project not only boosts user interaction but also streamlines the integration and customization process, making it a valuable tool for creators aiming to establish a responsive and engaging online presence.
+***Motivation***
+I developed this project to revolutionize YouTube commenting by moving beyond generic responses. The goal is for the AI assistant to provide detailed and context-specific answers that enrich viewer interactions with video and blog content.
+
+***Idea***
+
+The core idea behind this project is to transform how YouTube comments are handled by leveraging advanced AI capabilities. When a user poses a question, the AI assistant avoids generic responses by using Retrieval-Augmented Generation (RAG). This technology allows the assistant to dive into uploaded content such as files, documents, references, blogs, or YouTube videos.
+By analyzing this content, the AI identifies relevant information related to the user's query. It then generates a detailed response that mirrors the depth and contextuality of human answers. This approach ensures that responses are not only accurate but also meaningful, enriching viewer interaction with tailored insights and references.
+Ultimately, the goal is to create an AI assistant that enhances engagement on YouTube and similar platforms by providing personalized and informative responses, fostering deeper connections between creators and their audience.
+
 
 ---
 
@@ -161,7 +169,6 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
    
 2. **📈Scalability Issues**: Integrating the AI Note Assistant into a website or scaling it for broader use may pose challenges due to resource demands and performance considerations.
 
-3. **🤖 Potential for Generic Responses**: While ChatGPT effectively references notebook content for responses, the answers might sometimes appear too similar or copy-pasted, lacking personalized engagement.
 
 #### Future Plans 🌱
 
