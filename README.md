@@ -8,11 +8,13 @@
     <em>Enhancing Interactions, Tailoring Smarter AI Responses.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/codereyinish/MBGPT.git?style=flat&logo=opensourceinitiative&logoColor=white&color=#8A2BE" alt="license">
-	<img src="https://img.shields.io/github/last-commit/codereyinish/MBGPT.git?style=flat&logo=git&logoColor=white&color=#8A2BE" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/codereyinish/MBGPT.git?style=flat&color=#8A2BE" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/codereyinish/MBGPT.git?style=flat&color=#8A2BE" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/codereyinish/MBGPT?style=flat&logo=opensourceinitiative&logoColor=white&color=black" alt="license">
+	<img src="https://img.shields.io/github/last-commit/codereyinish/MBGPT?style=flat&logo=git&logoColor=white&color=black" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/codereyinish/MBGPT?style=flat&color=black" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/codereyinish/MBGPT?style=flat&color=black" alt="repo-language-count">
 <p>
+<br>
+<hr style="border: 0.1px solid white;">
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
