@@ -12,15 +12,20 @@
 	<img src="https://img.shields.io/github/last-commit/codereyinish/MBGPT?style=flat&logo=git&logoColor=white&color=black" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/codereyinish/MBGPT?style=flat&color=black" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/codereyinish/MBGPT?style=flat&color=black" alt="repo-language-count">
-<p>
-<br>
-<hr style="border: 0.1px solid white;">
+</p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
+	<img src="https://img.shields.io/badge/conda-44A833.svg?style=flat&logo=conda&logoColor=white" alt="Conda">
+	<img src="https://img.shields.io/badge/pip-3775A9.svg?style=flat&logo=pypa&logoColor=white" alt="pip">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=flat&logo=GNU-Bash&logoColor=white" alt="GNU Bash">
+	<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
+	<img src="https://img.shields.io/badge/OpenAI-1.35.3-412991.svg?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI">
+	<br>
 </p>
 
 <br><!-- TABLE OF CONTENTS -->
