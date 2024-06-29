@@ -125,11 +125,11 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 > ![conda](https://img.shields.io/badge/Anaconda-44A833.svg?style=flat&logo=Anaconda&logoColor=white)
 >
 >```bash
->conda env create -f Note_Environment.yml
+>conda env create -f assistant_env.yml
 > ```
 >4. **Activate the environment**:
 > ```bash
-> conda activate noteAssistant_env
+> conda activate assistant_env
 > ```
 >5. **Set up the OpenAI key**:
 >Obtain your OpenAI API key from [OpenAI](https://www.openai.com/). Create a file named `.env` in the project root directory and add:
@@ -143,14 +143,9 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 
 <h4>From <code>source</code></h4>
 
-> Run AI_Note_Assistant using the Jupyter Notebook:
+> Run a file say "AI_Assistant" using the Jupyter Notebook:
 > ```console
-> $ jupyter nbconvert --execute Note_Assistant.ipynb
-> ```
-
-> Run AI_Note_Assistant as Python Script:
-> ```console
-> $ python Note_Assistant.py
+> $ jupyter nbconvert --execute AI_Assistant.ipynb
 > ```
 
 
