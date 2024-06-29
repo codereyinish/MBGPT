@@ -50,11 +50,13 @@
 
 ## 📍 Overview
 
-***Motivation***
+***🌟 Motivation***
 
 I developed this project to revolutionize YouTube commenting by moving beyond generic responses. The goal is for the AI assistant to provide detailed and context-specific answers that enrich viewer interactions with video and blog content.
 
-***Idea***
+<br>
+
+***💡 Idea***
 
 The core idea behind this project is to transform how YouTube comments are handled by leveraging advanced AI capabilities. When a user poses a question, the AI assistant avoids generic responses by using Retrieval-Augmented Generation (RAG). This technology allows the assistant to dive into uploaded content such as files, documents, references, blogs, or YouTube videos.
 By analyzing this content, the AI identifies relevant information related to the user's query. It then generates a detailed response that mirrors the depth and contextuality of human answers. This approach ensures that responses are not only accurate but also meaningful, enriching viewer interaction with tailored insights and references.
