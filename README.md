@@ -103,37 +103,59 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 
 **System Requirements:**
 
-* **JupyterNotebook**: `version x.y.z`
+* **Python**: 3.8+
+* **JupyterNotebook**
+* **Package manager/Container**: `conda`(Recommended), `pip`
+* **LLM service**: `OpenAI` (Recommended), `Google Gemini`
 
 ### ⚙️ Installation
 
-<h4>From <code>source</code></h4>
-
-> 1. Clone the MBGPT repository:
->
-> ```console
-> $ git clone https://github.com/codereyinish/MBGPT.git
-> ```
+>1. **Clone the repository**:
+>```bash
+>git clone https://github.com/codereyinish/MBGPT.git
+>```
 >
 > 2. Change to the project directory:
-> ```console
+> ```bash
 > $ cd MBGPT
 > ```
 >
-> 3. Install the dependencies:
-> ```console
-> $ pip install -r requirements.txt
+>3. **Create the Conda environment**:
+>
+> ![conda](https://img.shields.io/badge/Anaconda-44A833.svg?style=flat&logo=Anaconda&logoColor=white)
+>
+>```bash
+>conda env create -f Note_Environment.yml
 > ```
+>4. **Activate the environment**:
+> ```bash
+> conda activate noteAssistant_env
+> ```
+>5. **Set up the OpenAI key**:
+>Obtain your OpenAI API key from [OpenAI](https://www.openai.com/). Create a file named `.env` in the project root directory and add:
+><a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety" target ="_blank" style = "text-decoration: none">Refer this</a>
+>```env
+>OPENAI_API_KEY=your_openai_api_key
+>```
+
 
 ### 🤖 Usage
 
 <h4>From <code>source</code></h4>
 
-> Run MBGPT using the command below:
+> Run AI_Note_Assistant using the Jupyter Notebook:
 > ```console
-> $ jupyter nbconvert --execute notebook.ipynb
+> $ jupyter nbconvert --execute Note_Assistant.ipynb
 > ```
 
+> Run AI_Note_Assistant as Python Script:
+> ```console
+> $ python Note_Assistant.py
+> ```
+
+
+
+---
 
 ---
 
