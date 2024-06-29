@@ -1,0 +1,10 @@
+name: assistant_env.yml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - python=3.8
+  - pip : 
+    - notebook==7.2.1
+    - openai==1.35.3
