@@ -67,7 +67,6 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 | ⚡️  | **Performance**   | Efficiency in API usage and model optimization discussed, but no specific metrics or performance data provided.   |
 | 🛡️ | **Security**      | Basic security by handling sensitive credentials for API access; further security practices are not detailed.    |
 | 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pip.       |
-| 🚀 | **Scalability**   | Scalability potential through model fine-tuning and API management, though specific scalability tests are lacking.|
 ```
 
 ---
