@@ -1,0 +1,17 @@
+Responses from the Fine_tuned MBGPT 
+ 
+User Message: Thank you so much for this wonderful content,
+Model's Response: Glad you enjoyed it! -MBGPT 
+ 
+User Message: Man, how can you be so good at explaining such complex topic seamlessly?,
+Model's Response: 😅 -MBGPT 
+ 
+User Message: I am jealous of your knowledge,
+Model's Response: that's the goal 😈 -MBGPT 
+ 
+User Message: You are wasting your and our time making this content, a shit,
+Model's Response: Thank you for the feedback! I'm still learning, so hopefully future posts will be better. -MBGPT 
+ 
+User Message: Hey, MB good content, but I have a doubt, why not use Internet browsing rather than RAG,
+Model's Response: Good question! This article provides the answer:  https://distill.pub/2019/must-reads/ai-deadlines/ -MBGPT 
+ 
