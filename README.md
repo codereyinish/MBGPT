@@ -8,41 +8,60 @@
     <em>Enhancing Interactions, Tailoring Smarter AI Responses.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/codereyinish/MBGPT.git?style=flat&logo=opensourceinitiative&logoColor=white&color=#8A2BE" alt="license">
-	<img src="https://img.shields.io/github/last-commit/codereyinish/MBGPT.git?style=flat&logo=git&logoColor=white&color=#8A2BE" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/codereyinish/MBGPT.git?style=flat&color=#8A2BE" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/codereyinish/MBGPT.git?style=flat&color=#8A2BE" alt="repo-language-count">
-<p>
+	<img src="https://img.shields.io/github/license/codereyinish/MBGPT?style=flat&logo=opensourceinitiative&logoColor=white&color=black" alt="license">
+	<img src="https://img.shields.io/github/last-commit/codereyinish/MBGPT?style=flat&logo=git&logoColor=white&color=black" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/codereyinish/MBGPT?style=flat&color=black" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/codereyinish/MBGPT?style=flat&color=black" alt="repo-language-count">
+</p>
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/YAML-CB171E.svg?style=flat&logo=YAML&logoColor=white" alt="YAML">
+	<img src="https://img.shields.io/badge/conda-44A833.svg?style=flat&logo=conda&logoColor=white" alt="Conda">
+	<img src="https://img.shields.io/badge/pip-3775A9.svg?style=flat&logo=pypa&logoColor=white" alt="pip">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/GNU%20Bash-4EAA25.svg?style=flat&logo=GNU-Bash&logoColor=white" alt="GNU Bash">
+	<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?style=flat&logo=GitHub-Actions&logoColor=white" alt="GitHub%20Actions">
+	<img src="https://img.shields.io/badge/OpenAI-1.35.3-412991.svg?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI">
+	<br>
 </p>
 
-<br><!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary><br>
-
+	
 - [📍 Overview](#-overview)
-- [🧩 Features](#-features)
-- [🗂️ Repository Structure](#️-repository-structure)
-- [📦 Modules](#-modules)
+- [📦 Features](#-features)
+- [📂 Repository Structure](#-repository-structure)
+- [🧩 Modules](#-modules)
 - [🚀 Getting Started](#-getting-started)
-  - [⚙️ Installation](#️-installation)
-  - [🤖 Usage](#-usage)
-  - [🧪 Tests](#-tests)
-- [🛠 Project Roadmap](#-project-roadmap)
-- [🤝 Contributing](#-contributing)
-- [🎗 License](#-license)
-- [🔗 Acknowledgments](#-acknowledgments)
+  - [⚙️ Install](#-install)
+  - [🤖 Usage ](#-usage)
+- [🚧 Limitations and Future](#-limitations-and-future-plans-of-project)
+  - [Limitations 🛑](#-limitations)
+  - [Future Plans 🌱](#-future-plans)
+- [🤝 Contributing](#-contributing)	 
+- [📄 License](#-license)
+- [👏 Acknowledgments](#-acknowledgments)
 </details>
 <hr>
 
+
 ## 📍 Overview
 
-The MBGPT project introduces an advanced AI assistant designed specifically for enhancing user engagement on YouTube through personalized interactions. This software utilizes OpenAIs platform to manage and respond to user comments effectively, ensuring each interaction is tailored to the users needs and the complexity of their inquiries. Key components of the project include fine-tuning the AI model to improve its accuracy and relevance in communication, as evidenced through dedicated notebooks for API interactions and model customization. The MBGPT project not only boosts user interaction but also streamlines the integration and customization process, making it a valuable tool for creators aiming to establish a responsive and engaging online presence.
+***🌟 Motivation***
+
+I developed this project to revolutionize YouTube commenting by moving beyond generic responses. The goal is for the AI assistant to provide detailed and context-specific answers that enrich viewer interactions with video and blog content.
+
+<br>
+
+***💡 Idea***
+
+The core idea behind this project is to transform how YouTube comments are handled by leveraging advanced AI capabilities. When a user poses a question, the AI assistant avoids generic responses by using Retrieval-Augmented Generation (RAG). This technology allows the assistant to dive into uploaded content such as files, documents, references, blogs, or YouTube videos.
+By analyzing this content, the AI identifies relevant information related to the user's query. It then generates a detailed response that mirrors the depth and contextuality of human answers. This approach ensures that responses are not only accurate but also meaningful, enriching viewer interaction with tailored insights and references.
+Ultimately, the goal is to create an AI assistant that enhances engagement on YouTube and similar platforms by providing personalized and informative responses, fostering deeper connections between creators and their audience.
+
 
 ---
 
@@ -59,7 +78,6 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 | ⚡️  | **Performance**   | Efficiency in API usage and model optimization discussed, but no specific metrics or performance data provided.   |
 | 🛡️ | **Security**      | Basic security by handling sensitive credentials for API access; further security practices are not detailed.    |
 | 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pip.       |
-| 🚀 | **Scalability**   | Scalability potential through model fine-tuning and API management, though specific scalability tests are lacking.|
 ```
 
 ---
@@ -96,53 +114,82 @@ The MBGPT project introduces an advanced AI assistant designed specifically for 
 
 **System Requirements:**
 
-* **JupyterNotebook**: `version x.y.z`
+* **Python**: 3.8+
+* **JupyterNotebook**
+* **Package manager/Container**: `conda`(Recommended), `pip`
+* **LLM service**: `OpenAI` (Recommended), `Google Gemini`
 
 ### ⚙️ Installation
 
-<h4>From <code>source</code></h4>
-
-> 1. Clone the MBGPT repository:
->
-> ```console
-> $ git clone https://github.com/codereyinish/MBGPT.git
-> ```
+>1. **Clone the repository**:
+>```bash
+>git clone https://github.com/codereyinish/MBGPT.git
+>```
 >
 > 2. Change to the project directory:
-> ```console
+> ```bash
 > $ cd MBGPT
 > ```
 >
-> 3. Install the dependencies:
-> ```console
-> $ pip install -r requirements.txt
+>3. **Create the Conda environment**:
+>
+> ![conda](https://img.shields.io/badge/Anaconda-44A833.svg?style=flat&logo=Anaconda&logoColor=white)
+>
+>```bash
+>conda env create -f assistant_env.yml
 > ```
+>4. **Activate the environment**:
+> ```bash
+> conda activate assistant_env
+> ```
+>5. **Set up the OpenAI key**:
+>Obtain your OpenAI API key from [OpenAI](https://www.openai.com/). Create a file named `.env` in the project root directory and add:
+><a href="https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety" target ="_blank" style = "text-decoration: none">Refer this</a>
+>```env
+>OPENAI_API_KEY=your_openai_api_key
+>```
+
 
 ### 🤖 Usage
 
 <h4>From <code>source</code></h4>
 
-> Run MBGPT using the command below:
+> Run a file say "AI_Assistant" using the Jupyter Notebook:
 > ```console
-> $ jupyter nbconvert --execute notebook.ipynb
+> $ jupyter nbconvert --execute AI_Assistant.ipynb
 > ```
 
-### 🧪 Tests
 
-> Run the test suite using the command below:
-> ```console
-> $ pytest notebook_test.py
-> ```
 
 ---
 
-## 🛠 Project Roadmap
+---
 
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
+### 🚧 Limitations and Future Plans of Project 
+
+#### Limitations 🛑
+1. **💸Cost of OpenAI API**: Utilizing the OpenAI Assistant API can become expensive, particularly if scaling the application. This cost consideration is important for long-term sustainability.
+   
+2. **📈Scalability Issues**: Integrating the AI Note Assistant into a website or scaling it for broader use may pose challenges due to resource demands and performance considerations.
+
+
+#### Future Plans 🌱
+
+To address these limitations and enhance the AI Note Assistant, future improvements include:
+
+- **Fine-tuning Open Source LLMs**: Developing and integrating Open Source Language Model (LLM) solutions, which can offer cost-effective alternatives to proprietary APIs like OpenAI.
+  
+- **Enhanced Response Design**: Designing responses with a mix of components to avoid generic outputs:
+  - **ChatGPT Writing Fillip**: Injecting creative and engaging writing style cues into responses.
+  - **Notebook Content Retrieval**: Extracting specific and relevant information directly from uploaded documents.
+  - **Scraping Linked Resources**: Scraping supplementary information from linked resources to enrich responses.
+  - **Few-shot Learning Examples**: Incorporating few-shot learning examples to diversify writing styles and enhance context-specific responses.
+
+These improvements aim to not only reduce operational costs but also enrich user interactions by providing more dynamic and contextually relevant AI responses.
+
 
 ---
+
 
 ## 🤝 Contributing
 
@@ -191,14 +238,17 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ## 🎗 License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+[MIT-License](LICENSE)
 
 ---
 
-## 🔗 Acknowledgments
+## 👏 Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- <a href="https://github.com/ShawhinT"  style="text-decoration: none;"> ShawinT </a>
 
-[**Return**](#-overview)
+<br>
+<p align="right">
+  <a href="#-overview"><b>Return</b></a>
+</p>
 
 ---
