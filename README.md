@@ -70,6 +70,18 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 |    | Feature           | Description                                                                                                     |
 |----|-------------------|-----------------------------------------------------------------------------------------------------------------|
 | ⚙️  | **Architecture**  | Utilizes Jupyter Notebooks for modular development of AI functionalities, focusing on interaction via OpenAI.    |
+
+
+
+---
+
+---
+
+## 🧩 Features
+
+|    |   Feature         | Description |
+|----|-------------------|---------------------------------------------------------------|
+| ⚙️  | **Architecture**  | The project showcases an architecture for building AI assistants using GPT-4 models with a focus on natural language processing for YouTube comments. It includes scripts like AI_Assistant.ipynb and AI_Assistant_RAG.ipynb for interaction and integration with OpenAI API. |
 | 🔩 | **Code Quality**  | The code is maintained within notebooks, offering clear, iterative examples of usage and fine-tuning approaches. |
 | 📄 | **Documentation** | Documentation is mainly in the form of inline comments within notebooks, explaining processes and configurations.|
 | 🔌 | **Integrations**  | Integrates with OpenAI's API for AI model interactions and enhancements.                                         |
@@ -77,7 +89,7 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 | 🧪 | **Testing**       | No explicit testing frameworks or tools mentioned; testing methodologies are not clarified.                      |
 | ⚡️  | **Performance**   | Efficiency in API usage and model optimization discussed, but no specific metrics or performance data provided.   |
 | 🛡️ | **Security**      | Basic security by handling sensitive credentials for API access; further security practices are not detailed.    |
-| 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pip.       |
+| 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pipspecified in the assistant_env.yml file. These dependencies support the setup and execution of the AI assistant environment. |      
 
 
 ---
