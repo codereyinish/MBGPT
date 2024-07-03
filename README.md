@@ -63,19 +63,7 @@ By analyzing this content, the AI identifies relevant information related to the
 Ultimately, the goal is to create an AI assistant that enhances engagement on YouTube and similar platforms by providing personalized and informative responses, fostering deeper connections between creators and their audience.
 
 
----
 
-## 🧩 Features
-
-|    | Feature           | Description                                                                                                     |
-|----|-------------------|-----------------------------------------------------------------------------------------------------------------|
-| ⚙️  | **Architecture**  | Utilizes Jupyter Notebooks for modular development of AI functionalities, focusing on interaction via OpenAI.    |
-
-
-
----
-
----
 
 ## 🧩 Features
 
