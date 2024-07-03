@@ -170,7 +170,7 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 
 <h4>From <code>source</code></h4>
 
-> Run whichever .ipynb file  you want to play with using the Jupyter Notebook:
+> Run whichever .ipynb file  you want to experiment with this jupyter command:
 > ```console
 > $ jupyter nbconvert --execute AI_Assistant.ipynb
 > $ jupyter nbconvert --execute AI_Assistant_RAG.ipynb
