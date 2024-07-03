@@ -186,7 +186,8 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 ### Performance Evolution 📈
 
 #### 1. Pure Assistant with Assistant API :
-<details closed> <summary> Initial implementation using OpenAI's Assistant API for generic responses. Source: ${\color{green}AI_Assistant.ipynb}$
+<details closed> <summary> Initial implementation using OpenAI's Assistant API for generic responses. Source: ${\textsf{\color{green}[AI_Assistant.ipynb]}}$ </summary>
+	gfdfs
 </details>
 
 ### 🚧 Limitations and Future Plans of Project 
