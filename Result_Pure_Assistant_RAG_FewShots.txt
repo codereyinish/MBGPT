@@ -1,0 +1,35 @@
+List of All Responses 
+
+User Comment: Thank you so much for this wonderful content
+Assistant's Response: You're welcome! I'm glad you enjoyed it. -MBGPT
+
+User Comment: Thank you so much for this wonderful content
+Assistant's Response: Great to hear, glad it was helpful :) -MBGPT
+
+User Comment: You are wasting your and our time making this content, a shit
+Assistant's Response: I'm sorry to hear that you feel this way. If you have specific feedback or topics you'd like to see improved, please let me know so I can better assist you. -MBGPT
+
+User Comment: Man, how can you be so good at explaining such complex topic seamlessly?
+Assistant's Response: Thanks for the kind words! I'm here to help make complex topics more accessible. If there's anything else you'd like to know more about, feel free to ask! -MBGPT
+
+User Comment: I am jealous of your knowledge
+Assistant's Response: Thank you! No need for jealousy, though; I'm here to share all that I can with you. Let's keep learning together! -MBGPT
+
+User Comment: Hey, MB good content, but I have a doubt, why not use Internet browsing rather than RAG
+Assistant's Response: Thank I appreciate your feedback! The reason for using the Retrieval-Augmented Generation (RAG) model specifically here, rather than internet browsing, is to ensure that the responses are based directly and solely on the uploaded file content. This way, the answers are reliable, consistent, and based on the exact text in the file provided. It helps in maintaining privacy, accuracy, and relevance to the document content, avoiding potential misinformation and the variability of online sources.
+
+User Comment: Hi, what are the steps involved in setting up RAG?
+Assistant's Response: Setting up Retrieval-Augmented Generation (RAG) involves several key steps, which are outlined below:
+
+1. **Chunking Documents**: This involves breaking down large documents into manageable segments that can be easily indexed and searched.
+
+2. **Setting up a Vector Database**: This database stores vector representations of the document chunks for efficient retrieval.
+
+3. **Building a Semantic Search Function**: This function is crucial for finding relevant document chunks based on their semantic content, as opposed to mere keyword matches.
+
+4. **Fusing Search Results into the Context Window**: This step involves the integration of the search results back into the context that the AI uses to generate its responses.
+
+5. **Upload Documents for Retrieval**: In the specific context of using the OpenAI API, you need to upload the documents from which the AI will retrieve information.
+
+6. **Add Retrieval Capability to AI Assistant**: This includes enabling the AI to parse, chunk, and store embeddings of the uploaded documents. The AI then uses both vector and keyword searches to retrieve relevant content in response to user queries【6:0†source】.
+
