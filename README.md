@@ -63,13 +63,13 @@ By analyzing this content, the AI identifies relevant information related to the
 Ultimately, the goal is to create an AI assistant that enhances engagement on YouTube and similar platforms by providing personalized and informative responses, fostering deeper connections between creators and their audience.
 
 
----
+
 
 ## 🧩 Features
 
-|    | Feature           | Description                                                                                                     |
-|----|-------------------|-----------------------------------------------------------------------------------------------------------------|
-| ⚙️  | **Architecture**  | Utilizes Jupyter Notebooks for modular development of AI functionalities, focusing on interaction via OpenAI.    |
+|    |   Feature         | Description |
+|----|-------------------|---------------------------------------------------------------|
+| ⚙️  | **Architecture**  | The project showcases an architecture for building AI assistants using GPT-4 models with a focus on natural language processing for YouTube comments. It includes scripts like AI_Assistant.ipynb and AI_Assistant_RAG.ipynb for interaction and integration with OpenAI API. |
 | 🔩 | **Code Quality**  | The code is maintained within notebooks, offering clear, iterative examples of usage and fine-tuning approaches. |
 | 📄 | **Documentation** | Documentation is mainly in the form of inline comments within notebooks, explaining processes and configurations.|
 | 🔌 | **Integrations**  | Integrates with OpenAI's API for AI model interactions and enhancements.                                         |
@@ -77,8 +77,8 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 | 🧪 | **Testing**       | No explicit testing frameworks or tools mentioned; testing methodologies are not clarified.                      |
 | ⚡️  | **Performance**   | Efficiency in API usage and model optimization discussed, but no specific metrics or performance data provided.   |
 | 🛡️ | **Security**      | Basic security by handling sensitive credentials for API access; further security practices are not detailed.    |
-| 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pip.       |
-```
+| 📦 | **Dependencies**  | Relies on Python, JupyterLab, and specific libraries like Notebook and OpenAI accessible via Conda and pipspecified in the assistant_env.yml file. These dependencies support the setup and execution of the AI assistant environment. |      
+
 
 ---
 
@@ -87,7 +87,13 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 ```sh
 └── MBGPT/
     ├── AI_Assistant.ipynb
-    ├── AI_Assistant_FineTune.ipynb
+    ├── AI_Assistant_RAG.ipynb
+    ├── Fine_Tune
+    │   ├── AI_Assistant_FineTune.ipynb
+    │   ├── Result_fine_tuned.txt
+    │   ├── TokenCalculator.ipynb
+    │   └── data
+    ├── LICENSE
     ├── README.md
     ├── assistant_env.yml
     └── docs
@@ -100,11 +106,21 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 
 <details closed><summary>.</summary>
 
-| File                                                                                                             | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ---                                                                                                              | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [AI_Assistant.ipynb](https://github.com/codereyinish/MBGPT.git/blob/master/AI_Assistant.ipynb)                   | AI_Assistant.ipynb establishes an AI-powered assistant designed for interacting with users on YouTube. It manages responses to user comments, tailoring engagement based on the contents complexity and user feedback. The notebook also handles API interactions and demonstrates efficient message management through OpenAIs platform.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [AI_Assistant_FineTune.ipynb](https://github.com/codereyinish/MBGPT.git/blob/master/AI_Assistant_FineTune.ipynb) | The file `AI_Assistant_FineTune.ipynb` within the MBGPT repository plays a crucial role in the configuration and enhancement of the AI assistant developed in this project. This Jupyter notebook specifically focuses on fine-tuning the underlying machine learning model, leveraging the OpenAI platform. Through the initial code snippets, its evident that the notebook handles environment setup and credentials configuration essential for accessing OpenAI's API.The primary goal of this notebook is to adapt the AI model to better suit specific tasks or improve performance by optimizing its responses. This customization is integral to evolving the AI Assistant's capabilities, ensuring it aligns more closely with user expectations and the functional requirements stipulated in the broader project scope.This fine-tuning process is a key component of the repositorys architecture, suggesting a sophisticated use of machine learning techniques to refine the assistant's interaction quality. The other files in the repository, such as `AI_Assant.ipynb`, likely utilize the enhanced model developed here, making this notebook a foundational piece in the overall functionality of the AI assistant system hosted in the MBGPT repository. |
-| [assistant_env.yml](https://github.com/codereyinish/MBGPT.git/blob/master/assistant_env.yml)                     | Defines the environment setup for the MBGPT project, specifying necessary software dependencies such as JupyterLab, Python, and specific versions of Notebook and OpenAI libraries through Conda and pip, ensuring consistent development and execution conditions across different setups.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| File                                                                                               | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---                                                                                                | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [AI_Assistant.ipynb](https://github.com/codereyinish/MBGPT/blob/master/AI_Assistant.ipynb)         | Creates AI assistants for YouTube comments with flexible interaction capabilities.-Generates concise responses tailored to viewer feedback.-Improves engagement by adapting response length based on user input.-Utilizes GPT-4 models for natural language processing.                                                                                                                                                                                                                                                                                                       |
+| [AI_Assistant_RAG.ipynb](https://github.com/codereyinish/MBGPT/blob/master/AI_Assistant_RAG.ipynb) | The `AI_Assistant_RAG.ipynb` file in the `MBGPT` repository serves as a crucial component for integrating the AI Assistant based on Retrieval-Augmented Generation (RAG) model. This notebook file enables the seamless interaction with the OpenAI API, providing functionalities for accessing and utilizing the AI Assistants capabilities. By importing necessary modules and setting up essential components, this script facilitates the integration of advanced AI features into the project, enhancing the overall functionality and performance of the AI Assistant. |
+| [assistant_env.yml](https://github.com/codereyinish/MBGPT/blob/master/assistant_env.yml)           | Enables setting up the AI assistant environment for fine-tuning the model. Specifies dependencies like jupyterlab, Python 3.8, notebook, and openai via the assistant_env.yml file in the repository.                                                                                                                                                                                                                                                                                                                                                                         |
+
+</details>
+
+<details closed><summary>Fine_Tune</summary>
+
+| File                                                                                                                   | Summary                                                                                                                                                                                                                                                                                                                                                                             |
+| ---                                                                                                                    | ---                                                                                                                                                                                                                                                                                                                                                                                 |
+| [Result_fine_tuned.txt](https://github.com/codereyinish/MBGPT/blob/master/Fine_Tune/Result_fine_tuned.txt)             | Summarizes responses from MBGPT model after being fine-tuned. Outputs tailored answers to user queries, showcasing the models adaptability and learning capabilities. Supports user engagement and education through personalized and informative interactions.                                                                                                                     |
+| [TokenCalculator.ipynb](https://github.com/codereyinish/MBGPT/blob/master/Fine_Tune/TokenCalculator.ipynb)             | Implements token calculation for text encoding based on model and tokenizer.-Calculates the total tokens for specific chat completion models.-Defines a function to determine token count from messages for specific models in the repository architecture.                                                                                                                         |
+| [AI_Assistant_FineTune.ipynb](https://github.com/codereyinish/MBGPT/blob/master/Fine_Tune/AI_Assistant_FineTune.ipynb) | The `AI_Assistant_FineTune.ipynb` file in the `Fine_Tune` directory of the `MBGPT` repository is pivotal for fine-tuning an AI assistant model. It utilizes CSV and JSON libraries while incorporating randomization. The code is integral to the repositorys architecture by enabling refinement of the AI assistants capabilities through data manipulation and model adaptation. |
 
 </details>
 
@@ -154,9 +170,11 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 
 <h4>From <code>source</code></h4>
 
-> Run a file say "AI_Assistant" using the Jupyter Notebook:
+> Run whichever .ipynb file  you want to experiment with this jupyter command:
 > ```console
 > $ jupyter nbconvert --execute AI_Assistant.ipynb
+> $ jupyter nbconvert --execute AI_Assistant_RAG.ipynb
+>
 > ```
 
 
@@ -164,6 +182,13 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 ---
 
 ---
+
+### Performance Evolution 📈
+
+#### 1. Pure Assistant with Assistant API :
+<details closed> <summary> Initial implementation using OpenAI's Assistant API for generic responses. Source: ${\textsf{\color{green}AI_Assistant.ipynb}}$ </summary>
+	gfdfs
+</details>
 
 ### 🚧 Limitations and Future Plans of Project 
 
