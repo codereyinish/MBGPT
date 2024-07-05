@@ -33,10 +33,10 @@
 	
 - [📍 Overview](#-overview)
 - [📦 Features](#-features)
-- [📂 Repository Structure](#-repository-structure)
+- [🗂️ Repository Structure](#-repository-structure)
 - [🧩 Modules](#-modules)
 - [🚀 Getting Started](#-getting-started)
-  - [⚙️ Install](#-install)
+  - [⚙️ Installation](#-installation)
   - [🤖 Usage ](#-usage)
 - [🚧 Limitations and Future](#-limitations-and-future-plans-of-project)
   - [Current Limitations 🛑](#-current-limitations)
