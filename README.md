@@ -214,7 +214,10 @@ By uploading files to OpenAI's API storage, creating a vector store, and equippi
 </summary>
 <br>
 We fine-tuned the model using conversation examples, achieving more human-like responses. So far, we have successfully managed to get short, human-like replies for simple comments with good sentiment understanding from the model. We also managed to get context-specific answers by referring to the documents we uploaded. However, something is still missing—the human touch. Despite our efforts, it still feels somewhat artificial. There's a saying that we should switch to fine-tuning from detailed prompting when it's easier to "show, not tell." And guess what? We managed to get almost perfect human-like comment responses, which I think you will find hard to believe.</details>
-<br>
+
+
+---
+
 
 ### 🚧 Limitations and Future Plans of Project 
 
