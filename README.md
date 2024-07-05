@@ -221,24 +221,32 @@ We fine-tuned the model using conversation examples, achieving more human-like r
 
 ### 🚧 Limitations and Future Plans of Project 
 
-#### Limitations 🛑
-1. **💸Cost of OpenAI API**: Utilizing the OpenAI Assistant API can become expensive, particularly if scaling the application. This cost consideration is important for long-term sustainability.
-   
-2. **📈Scalability Issues**: Integrating the AI Note Assistant into a website or scaling it for broader use may pose challenges due to resource demands and performance considerations.
+
+
+#### Current Limitations 🛑
+
+1. **API Lock-in 🔒**: The assistant is accessible only through the OpenAI API, limiting flexibility and control.
+
+2. **Cost Considerations  💸**: 
+   - API usage costs can escalate rapidly, especially when scaling for widespread business applications.
+   - Cost of training the the base model(which I dont think is a big issue, because even fine-tuning the open source cost compuational resources,      and given the Open_AI hyper -parametric  control, fine-tuning becomes more easier and out of the box with no need to worry about       	       configuration.
+   - Even after fine-tuning, continued API calls are required, incurring ongoing expenses.
+
+3. **Scalability Challenges 📈**: Integrating the assistant into external platforms (e.g., websites) poses scalability and security concerns.
+
+4. **Fine-Tuning Constraints 🔧**: While fine-tuning is streamlined via OpenAI's API, the resulting model remains tied to OpenAI's infrastructure and pricing model, This the biggest issue in comparison to fine-tuning open source model, but it fine-tuning the open-source requires more work from our side which will learn later.
+
+  
 
 
 #### Future Plans 🌱
 
-To address these limitations and enhance the AI Note Assistant, future improvements include:
+To address current limitations and enhance the AI Note Assistant, we have two main paths:
+
+- **Continue with OpenAI**:Improve the fine-tuned model through better prompts and implementing additional tools
 
 - **Fine-tuning Open Source LLMs**: Developing and integrating Open Source Language Model (LLM) solutions, which can offer cost-effective alternatives to proprietary APIs like OpenAI.
   
-- **Enhanced Response Design**: Designing responses with a mix of components to avoid generic outputs:
-  - **ChatGPT Writing Fillip**: Injecting creative and engaging writing style cues into responses.
-  - **Notebook Content Retrieval**: Extracting specific and relevant information directly from uploaded documents.
-  - **Scraping Linked Resources**: Scraping supplementary information from linked resources to enrich responses.
-  - **Few-shot Learning Examples**: Incorporating few-shot learning examples to diversify writing styles and enhance context-specific responses.
-
 These improvements aim to not only reduce operational costs but also enrich user interactions by providing more dynamic and contextually relevant AI responses.
 
 
