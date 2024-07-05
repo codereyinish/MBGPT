@@ -39,7 +39,7 @@
   - [⚙️ Install](#-install)
   - [🤖 Usage ](#-usage)
 - [🚧 Limitations and Future](#-limitations-and-future-plans-of-project)
-  - [Limitations 🛑](#-limitations)
+  - [Current Limitations 🛑](#-current-limitations)
   - [Future Plans 🌱](#-future-plans)
 - [🤝 Contributing](#-contributing)	 
 - [📄 License](#-license)
@@ -189,7 +189,7 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 #### 1. Pure Assistant with Assistant API :
 <details closed> <summary> Initial implementation using OpenAI's Assistant API with now few shots prompting. Source: <a href="https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_AI_Assistant.txt%20">Result_Pure_AI_Assistant.txt</a> </summary>
 <br>
-This stage represents the baseline functionality of the AI assistant. It relies entirely on OpenAI's API to generate responses, which are typically broad and generalized. Even for simple comments, the responses are too detailed and doesnt feel like a huamn replying, instead it seems like a writer is replying.. For context-specific questions, the answers become even more excessively long without RAG implementation. While this approach provides a wide range of capabilities, it lacks specificity to your particular use case. Here is the result:
+This stage represents the baseline functionality of the AI assistant. It relies entirely on OpenAI's API to generate responses, which are typically broad and generalized. Even for simple comments, the responses are too detailed and doesnt feel like a huamn replying, instead it seems like a writer is replying.. For context-specific questions, the answers become even more excessively long without RAG implementation. While this approach provides a wide range of capabilities, it lacks specificity to your particular use case. 
 
 </details>
 
@@ -199,14 +199,14 @@ This stage represents the baseline functionality of the AI assistant. It relies 
 <br>
 In this phase, we introduced few-shot learning techniques to guide the assistant model towards more YouTube-like responses. By providing examples of typical comments, we improved the AI's ability to imitate few shot examples and generate  appropriate HUMAN ALIKE, SHORT replies for simple comments to some extent .
 
- However, for context-specific questions, the AI still tended to give overly detailed explanations rather than concise, YouTube-style replies which guide us to implement RAG
+ However, for context-specific questions, the AI still tended to give overly detailed explanations rather than concise, YouTube-style replies which guide us to implement RAG.
 	
 </details>
 
 #### 3. RAG Implementation
 <details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses. Source: <a href= "https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_Assistant_RAG_FewShots.txt">Result_Pure_Assistant_RAG_FewShots.txt</a> </summary>
 <br> 
-By uploading files to OpenAI's API storage, creating a vector store, and equipping the assistant with the files' knowledge resources and tools to retrieve details using the OpenAI's built-in RAG implementation, we implemented RAG. The successfuly managed to train the assistant to answer the questin by referring from the given document instead of generating generic answer by itself 
+By uploading files to OpenAI's API storage, creating a vector store, and equipping the assistant with the files' knowledge resources and tools to retrieve details using the OpenAI's built-in RAG implementation, we implemented RAG. The successfuly managed to train the assistant to answer the questin by referring from the given document instead of generating generic answer by itself. 
 </details>
 
 #### 4. Fine-Tune Implementation
@@ -227,7 +227,7 @@ We fine-tuned the model using conversation examples, achieving more human-like r
 
 1. **API Lock-in 🔒**: The assistant is accessible only through the OpenAI API, limiting flexibility and control.
 
-2. **Cost Considerations  💸**: 
+2. **Cost Considerations 💸**: 
    - API usage costs can escalate rapidly, especially when scaling for widespread business applications.
    - Cost of training the the base model(which I dont think is a big issue, because even fine-tuning the open source cost compuational resources,      and given the Open_AI hyper -parametric  control, fine-tuning becomes more easier and out of the box with no need to worry about       	       configuration.
    - Even after fine-tuning, continued API calls are required, incurring ongoing expenses.
