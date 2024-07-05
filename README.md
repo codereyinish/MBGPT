@@ -195,7 +195,7 @@ This stage represents the baseline functionality of the AI assistant. It relies 
 
 
 #### 2. Few-Shot Learning Enhancement :
-<details closed> <summary> Improved generic replies using few-shot examples for more context-aware responses. Source: <a href= "https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_Assistant_FewShots.txt%20">Result_Pure_Assistant_FewShots</a></summary>
+<details closed> <summary> Improved generic replies using few-shot examples for more context-aware responses. Source: <a href="https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_Assistant_FewShots.txt%20">Result_Pure_Assistant_FewShots.txt</a></summary>
 <br>
 In this phase, we introduced few-shot learning techniques to guide the assistant model towards more YouTube-like responses. By providing examples of typical comments, we improved the AI's ability to imitate few shot examples and generate  appropriate HUMAN ALIKE, SHORT replies for simple comments to some extent .
 
@@ -203,15 +203,14 @@ In this phase, we introduced few-shot learning techniques to guide the assistant
 	
 </details>
 
-Results/Result_Pure_Assistant_RAG_FewShots.txt
 #### 3. RAG Implementation
-<details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses. Source: <a href= "https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_Assistant_RAG_FewShots.txt">Result_Pure_Assistant_RAG_FewShots</a> </summary>
+<details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses. Source: <a href= "https://github.com/codereyinish/MBGPT/blob/main/Results/Result_Pure_Assistant_RAG_FewShots.txt">Result_Pure_Assistant_RAG_FewShots.txt</a> </summary>
 <br> 
 By uploading files to OpenAI's API storage, creating a vector store, and equipping the assistant with the files' knowledge resources and tools to retrieve details using the OpenAI's built-in RAG implementation, we implemented RAG. The successfuly managed to train the assistant to answer the questin by referring from the given document instead of generating generic answer by itself 
 </details>
 
 #### 4. Fine-Tune Implementation
-<details closed > <summary> Imporivng the Style/TONE of Human-Like AI Responses Through Fine-Tuning.  Source: ${\textsf{\color{green}Fine-Tune/AI-Assistant-FineTune.ipynb}}$  
+<details closed > <summary> Imporivng the Style/TONE of Human-Like AI Responses Through Fine-Tuning.  Source: <a href= "https://github.com/codereyinish/MBGPT/blob/main/Fine_Tune/Result_fine_tuned.txt"> Result_fine_tuned.txt</a>
 </summary>
 <br>
 We fine-tuned the model using conversation examples, achieving more human-like responses. So far, we have successfully managed to get short, human-like replies for simple comments with good sentiment understanding from the model. We also managed to get context-specific answers by referring to the documents we uploaded. However, something is still missing—the human touch. Despite our efforts, it still feels somewhat artificial. There's a saying that we should switch to fine-tuning from detailed prompting when it's easier to "show, not tell." And guess what? We managed to get almost perfect human-like comment responses, which I think you will find hard to believe.</details>
