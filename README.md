@@ -187,14 +187,14 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 ### Performance Evolution 📈
 
 #### 1. Pure Assistant with Assistant API :
-<details closed> <summary> Initial implementation using OpenAI's Assistant API with now few shots prompting. Source: ${\textsf{\color{green}AI-Assistant.ipynb}}$.  Here are the results: </summary>
+<details closed> <summary> Initial implementation using OpenAI's Assistant API with now few shots prompting. Source: [Result_Pure_AI_Assistant.txt](Results/Result_Pure_AI_Assistant.txt ) </summary>
 <br>
 This stage represents the baseline functionality of the AI assistant. It relies entirely on OpenAI's API to generate responses, which are typically broad and generalized. Even for simple comments, the responses are too detailed and doesnt feel like a huamn replying, instead it seems like a writer is replying.. For context-specific questions, the answers become even more excessively long without RAG implementation. While this approach provides a wide range of capabilities, it lacks specificity to your particular use case. Here is the result:
 
 </details>
 
 #### 2. Few-Shot Learning Enhancement :
-<details closed> <summary> Improved generic replies using few-shot examples for more context-aware responses. Source: ${\textsf{\color{green}AI-Assistant.ipynb}}$ </summary>
+<details closed> <summary> Improved generic replies using few-shot examples for more context-aware responses. Source: [Result_Pure_Assistant_FewShots.txt](Results/Result_Pure_Assistant_FewShots.txt )</summary>
 <br>
 In this phase, we introduced few-shot learning techniques to guide the assistant model towards more YouTube-like responses. By providing examples of typical comments, we improved the AI's ability to imitate few shot examples and generate  appropriate HUMAN ALIKE, SHORT replies for simple comments to some extent .
 
@@ -202,9 +202,9 @@ In this phase, we introduced few-shot learning techniques to guide the assistant
 	
 </details>
 
-
+Results/Result_Pure_Assistant_RAG_FewShots.txt
 #### 3. RAG Implementation
-<details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses (with some verbosity). Source: ${\textsf{\color{green}AI-Assistant-RAG.ipynb}}$  </summary>
+<details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses (with some verbosity). Source:[Result_Pure_Assistant_RAG_FewShots.txt](Results/Result_Pure_Assistant_RAG_FewShots.txt)  </summary>
 <br> 
 By uploading files to OpenAI's API storage, creating a vector store, and equipping the assistant with the files' knowledge resources and tools to retrieve details using the OpenAI's built-in RAG implementation, we implemented RAG. The successfuly managed to train the assistant to answer the questin by referring from the given document instead of generating generic answer by itself 
 </details>
