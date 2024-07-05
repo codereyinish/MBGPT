@@ -183,12 +183,38 @@ Ultimately, the goal is to create an AI assistant that enhances engagement on Yo
 
 ---
 
+
 ### Performance Evolution 📈
 
 #### 1. Pure Assistant with Assistant API :
-<details closed> <summary> Initial implementation using OpenAI's Assistant API for generic responses. Source: ${\textsf{\color{green}AI-Assistant.ipynb}}$ </summary>
-	gfdfs
+<details closed> <summary> Initial implementation using OpenAI's Assistant API with now few shots prompting. Source: ${\textsf{\color{green}AI-Assistant.ipynb}}$.  Here are the results: </summary>
+<br>
+This stage represents the baseline functionality of the AI assistant. It relies entirely on OpenAI's API to generate responses, which are typically broad and generalized. Even for simple comments, the responses are too detailed and doesnt feel like a huamn replying, instead it seems like a writer is replying.. For context-specific questions, the answers become even more excessively long without RAG implementation. While this approach provides a wide range of capabilities, it lacks specificity to your particular use case. Here is the result:
+
 </details>
+
+#### 2. Few-Shot Learning Enhancement :
+<details closed> <summary> Improved generic replies using few-shot examples for more context-aware responses. Source: ${\textsf{\color{green}AI-Assistant.ipynb}}$ </summary>
+<br>
+In this phase, we introduced few-shot learning techniques to guide the assistant model towards more YouTube-like responses. By providing examples of typical comments, we improved the AI's ability to imitate few shot examples and generate  appropriate HUMAN ALIKE, SHORT replies for simple comments to some extent .
+
+ However, for context-specific questions, the AI still tended to give overly detailed explanations rather than concise, YouTube-style replies which guide us to implement RAG
+	
+</details>
+
+
+#### 3. RAG Implementation
+<details closed> <summary> Integrated OpenAI's out of the box Retrieval-Augmented Generation (RAG) by uploading document  to the Assistant api, resulting in more specific, document-based responses (with some verbosity). Source: ${\textsf{\color{green}AI-Assistant-RAG.ipynb}}$  </summary>
+<br> 
+By uploading files to OpenAI's API storage, creating a vector store, and equipping the assistant with the files' knowledge resources and tools to retrieve details using the OpenAI's built-in RAG implementation, we implemented RAG. The successfuly managed to train the assistant to answer the questin by referring from the given document instead of generating generic answer by itself 
+</details>
+
+#### 4. Fine-Tune Implementation
+<details closed > <summary> Imporivng the Style/TONE of Human-Like AI Responses Through Fine-Tuning.  Source: ${\textsf{\color{green}Fine-Tune/AI-Assistant-FineTune.ipynb}}$  
+</summary>
+<br>
+We fine-tuned the model using conversation examples, achieving more human-like responses. So far, we have successfully managed to get short, human-like replies for simple comments with good sentiment understanding from the model. We also managed to get context-specific answers by referring to the documents we uploaded. However, something is still missing—the human touch. Despite our efforts, it still feels somewhat artificial. There's a saying that we should switch to fine-tuning from detailed prompting when it's easier to "show, not tell." And guess what? We managed to get almost perfect human-like comment responses, which I think you will find hard to believe.</details>
+<br>
 
 ### 🚧 Limitations and Future Plans of Project 
 
